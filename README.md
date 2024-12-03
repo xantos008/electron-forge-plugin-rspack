@@ -1,4 +1,4 @@
-# electron-forge-plugin-rspack
+# electron-forge-rspack-plugin
 
 # Support rspack 1.0
 
@@ -11,7 +11,7 @@
 # Installation
 
 ```
-npm install --save-dev electron-forge-plugin-rspack
+npm install --save-dev electron-forge-rspack-plugin
 ```
 
 # Usage
@@ -26,7 +26,7 @@ For example, this is the configuration taken from [electron-forge-rspack-templat
 // forge.config.ts
 
 import type { ForgeConfig } from "@electron-forge/shared-types";
-import { RspackPlugin } from "electron-forge-plugin-rspack";
+import { RspackPlugin } from "electron-forge-rspack-plugin";
 
 import { mainConfig } from "./rspack.main.config";
 import { rendererConfig } from "./rspack.renderer.config";

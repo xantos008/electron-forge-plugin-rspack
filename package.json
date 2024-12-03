@@ -1,6 +1,6 @@
 {
-  "name": "electron-forge-plugin-rspack",
-  "version": "1.0.0",
+  "name": "electron-forge-rspack-plugin",
+  "version": "1.0.1",
   "description": "This is a fork from noshower as an Rspack plugin for Electron Forge",
   "main": "dist/rspackPlugin.js",
   "types": "dist/rspackPlugin.d.ts",
