@@ -1,0 +1,52 @@
+{
+  "name": "electron-forge-plugin-rspack",
+  "version": "1.0.0",
+  "description": "This is a fork from noshower as an Rspack plugin for Electron Forge",
+  "main": "dist/rspackPlugin.js",
+  "types": "dist/rspackPlugin.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "prepack": "rm -rf dist && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xantos008/electron-forge-plugin-rspack.git"
+  },
+  "keywords": [
+    "electron",
+    "forge",
+    "plugin",
+    "rspack"
+  ],
+  "author": "xantos008",
+  "bugs": {
+    "url": "https://github.com/xantos008/electron-forge-plugin-rspack/issues"
+  },
+  "homepage": "https://github.com/xantos008/electron-forge-plugin-rspack#readme",
+  "dependencies": {
+    "@electron-forge/core-utils": "7.6.0",
+    "@electron-forge/plugin-base": "7.6.0",
+    "@electron-forge/shared-types": "7.6.0",
+    "@electron-forge/web-multi-logger": "7.6.0",
+    "debug": "^4.3.7",
+    "fs-extra": "^11.2.0",
+    "html-webpack-plugin": "^5.6.3",
+    "webpack-merge": "^6.0.1"
+  },
+  "devDependencies": {
+    "@rspack/core": "^1.1.5",
+    "@rspack/dev-server": "^1.0.9",
+    "@types/debug": "^4.1.12",
+    "@types/fs-extra": "^11.0.4",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">= 16.4.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ]
+}
