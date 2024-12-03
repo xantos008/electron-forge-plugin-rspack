@@ -225,7 +225,9 @@ export default class RspackConfigGenerator {
         output: {
           path: path.resolve(this.rspackDir, "main"),
           filename: "index.js",
-          libraryTarget: "commonjs2",
+          library: {
+            type: "commonjs2",
+          },
         },
         plugins: [new rspack.DefinePlugin(this.getDefines())],
         node: {
